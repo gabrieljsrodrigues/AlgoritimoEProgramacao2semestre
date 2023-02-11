@@ -7,9 +7,8 @@ int main()
     float altura;
     printf("Digite seu peso: ");
     scanf("%f", &peso);
-    scanf("%f", &altura);
     printf("Digite sua altura: ");
     scanf("%f", &altura);
     float IMC = peso /  (altura*altura);
-    printf("O IMC de uma pessoa com peso %f kg e altura %f m é igual a %f ", peso, altura, IMC);
+    printf("O IMC de uma pessoa com peso %f kg e altura %f m é igual a %f \n ", peso, altura, IMC);
 }
